@@ -1,0 +1,66 @@
+openapi: 3.0.1
+info:
+  version: 1.0.0
+  title: Prezius Reporting Service
+  description: REST API for Prezius Reporting Service
+  contact:
+    name: jEAP
+    url: https://confluence.example.com/display/BLUE/
+    email: jEAP-Community@bit.admin.ch
+externalDocs:
+  description: Blueprint Microservices in Confluence
+  url: https://confluence.example.com/display/JEAP/Blueprint+Microservices
+servers:
+  - url: http://localhost:8087/prezius-reporting
+    description: Generated server url
+tags:
+  - name: Service URL
+    description: The UI API for retrieving URLs of related services
+paths:
+  /ui-api/service-urls:
+    get:
+      summary: Get URLs of related services
+      operationId: getServiceUrls
+      tags:
+        - Service URL
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ServiceUrlsResponseDto'
+components:
+  schemas:
+    ServiceUrlsResponseDto:
+      type: object
+      properties:
+        preziusOrderServiceBaseUrl:
+          type: string
+          example: "http://localhost:4200/prezius-order/"
+        preziusBillingServiceBaseUrl:
+          type: string
+          example: "http://localhost:4203/prezius-billing/"
+        preziusAnalysisServiceBaseUrl:
+          type: string
+          example: "http://localhost:4269/prezius-analysis/"
+        preziusApplicationServiceBaseUrl:
+          type: string
+          example: "http://localhost:4297/prezius-application/"
+        preziusRegisterServiceBaseUrl:
+          type: string
+          example: "http://localhost:4290/prezius-register/"
+        preziusMatchmakingServiceBaseUrl:
+          type: string
+          example: "http://localhost:4221/prezius-matchmaking/"
+        preziusAuditServiceBaseUrl:
+          type: string
+          example: "http://localhost:4265/prezius-audit/"
+      required:
+        - preziusOrderServiceBaseUrl
+        - preziusBillingServiceBaseUrl
+        - preziusAnalysisServiceBaseUrl
+        - preziusApplicationServiceBaseUrl
+        - preziusRegisterServiceBaseUrl
+        - preziusMatchmakingServiceBaseUrl
+        - preziusAuditServiceBaseUrl

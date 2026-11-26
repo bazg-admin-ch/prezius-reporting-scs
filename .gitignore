@@ -1,0 +1,24 @@
+# Created by .ignore support plugin (hsz.mobi)
+target/
+# Frontend notices/texts are generated into assets; only the root inventory is committed.
+**/src/assets/THIRD-PARTY-LICENSES.md
+**/src/assets/third-party-licenses/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+*.iws
+*.iml
+*.ipr
+.idea/*
+!.idea/runConfigurations/
+
+.vscode/

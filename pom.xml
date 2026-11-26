@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>ch.admin.bit.jeap</groupId>
+        <artifactId>jeap-spring-boot-parent</artifactId>
+        <version>41.38.0</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <url>https://github.com/bazg-admin-ch/prezius-reporting-scs</url>
+    <organization>
+        <name>Bundesamt für Zoll und Grenzsicherheit BAZG</name>
+        <url>https://www.bazg.admin.ch</url>
+    </organization>
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git:https://github.com/bazg-admin-ch/prezius-reporting-scs.git</connection>
+        <url>https://github.com/bazg-admin-ch/prezius-reporting-scs</url>
+    </scm>
+
+    <properties>
+        <sonar.coverage.exclusions>
+            **/*ReportingServiceApplication.java,**/*GlobalExceptionHandler.java,**/*Dto.java,**/reporting/config/*,**/ui/*,
+        </sonar.coverage.exclusions>
+        <java.version>25</java.version>
+        <maven.compiler.release>25</maven.compiler.release>
+        <openapi.generator.version>7.27.0</openapi.generator.version>
+    </properties>
+
+    <groupId>ch.admin.bazg.prezius</groupId>
+    <artifactId>prezius-reporting-scs</artifactId>
+    <version>0.3.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>prezius-reporting-scs-ui-api</module>
+        <module>prezius-reporting-service</module>
+        <module>prezius-reporting-ui</module>
+    </modules>
+
+    <build>
+        <plugins>
+            <!-- Policy and versions are managed by the jEAP parent. -->
+            <plugin>
+                <groupId>org.honton.chas</groupId>
+                <artifactId>license-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>license-maven-plugin</artifactId>
+                <configuration>
+                    <missingFile>${project.build.directory}/license-missing.properties</missingFile>
+                    <!-- Recheck missing metadata even when generated files are up to date. -->
+                    <force>true</force>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>default-cli</id>
+                        <inherited>false</inherited>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

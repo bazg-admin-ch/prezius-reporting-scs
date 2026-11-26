@@ -1,0 +1,14 @@
+# Ignore everything by default
+"**"
+
+# Allow target directory structure
+!target/
+target/**
+
+# Allow only JAR files in target
+!target/*.jar
+
+# Allow extra directory: target/classes
+!target/classes/
+target/classes/**
+!target/classes/*.jks

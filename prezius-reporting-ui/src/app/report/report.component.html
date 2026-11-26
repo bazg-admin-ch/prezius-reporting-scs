@@ -1,0 +1,9 @@
+<qd-page [config]="pageConfig">
+  <qd-section>
+    <qd-filter [filterData]="filterData | async" (queryStringOutput)="filter($event)"></qd-filter>
+    <qd-button-grid>
+      <button (click)="exportCsv()" qdButton>{{ "i18n.prezius.reporting.exportCsv" | translate }}</button>
+    </qd-button-grid>
+    <qd-tree [config]="treeConfig$ | async" [data]="treeData$ | async"></qd-tree>
+  </qd-section>
+</qd-page>

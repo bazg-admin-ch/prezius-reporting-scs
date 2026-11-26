@@ -1,0 +1,151 @@
+[
+  {
+    "ag": "1140",
+    "au": "1141",
+    "nestedRows": [
+      {
+        "ag": "1070",
+        "au": "1071",
+        "nestedRows": [
+          {
+            "ag": "1110",
+            "au": "1111",
+            "nestedRows": [
+              {
+                "ag": "1130",
+                "au": "1131",
+                "pd": "1132",
+                "pt": "1133",
+                "revenue": "",
+                "title": "i18n.prezius.reporting.recapTable.title.jewelLaserCertified",
+                "total": "1134"
+              },
+              {
+                "ag": "1120",
+                "au": "1121",
+                "pd": "1122",
+                "pt": "1123",
+                "revenue": "",
+                "title": "i18n.prezius.reporting.recapTable.title.jewelLaserNotCertified",
+                "total": "1124"
+              }
+            ],
+            "pd": "1112",
+            "pt": "1113",
+            "revenue": "",
+            "title": "i18n.prezius.reporting.recapTable.title.jewelLaser",
+            "total": "1114"
+          },
+          {
+            "ag": "1080",
+            "au": "1081",
+            "nestedRows": [
+              {
+                "ag": "1100",
+                "au": "1101",
+                "pd": "1102",
+                "pt": "1103",
+                "revenue": "",
+                "title": "i18n.prezius.reporting.recapTable.title.jewelMechanicalCertified",
+                "total": "1104"
+              },
+              {
+                "ag": "1090",
+                "au": "1091",
+                "pd": "1092",
+                "pt": "1093",
+                "revenue": "",
+                "title": "i18n.prezius.reporting.recapTable.title.jewelMechanicalNotCertified",
+                "total": "1094"
+              }
+            ],
+            "pd": "1082",
+            "pt": "1083",
+            "revenue": "",
+            "title": "i18n.prezius.reporting.recapTable.title.jewelMechanical",
+            "total": "1084"
+          }
+        ],
+        "pd": "1072",
+        "pt": "1073",
+        "revenue": "",
+        "title": "i18n.prezius.reporting.recapTable.title.jewel",
+        "total": "1074"
+      },
+      {
+        "ag": "1000",
+        "au": "1001",
+        "nestedRows": [
+          {
+            "ag": "1040",
+            "au": "1041",
+            "nestedRows": [
+              {
+                "ag": "1060",
+                "au": "1061",
+                "pd": "1062",
+                "pt": "1063",
+                "revenue": "",
+                "title": "i18n.prezius.reporting.recapTable.title.watchLaserCertified",
+                "total": "1064"
+              },
+              {
+                "ag": "1050",
+                "au": "1051",
+                "pd": "1052",
+                "pt": "1053",
+                "revenue": "",
+                "title": "i18n.prezius.reporting.recapTable.title.watchLaserNotCertified",
+                "total": "1054"
+              }
+            ],
+            "pd": "1042",
+            "pt": "1043",
+            "revenue": "",
+            "title": "i18n.prezius.reporting.recapTable.title.watchLaser",
+            "total": "1044"
+          },
+          {
+            "ag": "1010",
+            "au": "1011",
+            "nestedRows": [
+              {
+                "ag": "1030",
+                "au": "1031",
+                "pd": "1032",
+                "pt": "1033",
+                "revenue": "",
+                "title": "i18n.prezius.reporting.recapTable.title.watchMechanicalCertified",
+                "total": "1034"
+              },
+              {
+                "ag": "1020",
+                "au": "1021",
+                "pd": "1022",
+                "pt": "1023",
+                "revenue": "",
+                "title": "i18n.prezius.reporting.recapTable.title.watchMechanicalNotCertified",
+                "total": "1024"
+              }
+            ],
+            "pd": "1012",
+            "pt": "1013",
+            "revenue": "",
+            "title": "i18n.prezius.reporting.recapTable.title.watchMechanical",
+            "total": "1014"
+          }
+        ],
+        "pd": "1002",
+        "pt": "1003",
+        "revenue": "",
+        "title": "i18n.prezius.reporting.recapTable.title.watch",
+        "total": "1004"
+      }
+    ],
+    "pd": "1142",
+    "pt": "1143",
+    "revenue": "CHF 1145.00",
+    "title": "i18n.prezius.reporting.recapTable.title.hallmarking",
+    "total": "1144"
+  }
+]

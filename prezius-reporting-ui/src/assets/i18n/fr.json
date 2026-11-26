@@ -1,0 +1,75 @@
+{
+  "i18n.application.title": "Prezius",
+  "i18n.application.organization.name": "Office fédéral de l'informatique et de la télécommunication",
+  "i18n.application.processHeader.submit": "Transmettre la demande",
+  "ERROR": {
+    "TRANSPORT_COCKPIT_PERSISTENCE_ERROR": "Une erreur s'est produite dans la banque de données",
+    "TRANSPORT_COCKPIT_VALIDATION_ERROR": "Saisie non valide",
+    "ACCESS_FORBIDDEN": "Vous ne disposez pas des droits pour cette action"
+  },
+  "i18n.navigation": {
+    "orders": "Demandes",
+    "protocols": "Protocoles",
+    "invoices": "Factures",
+    "reporting": "Reporting",
+    "preziusInfo": "Prezius Info",
+    "application": "Demandes",
+    "matchmaking": "Matchmaking",
+    "audit": "Audit"
+  },
+  "i18n.prezius.reporting": {
+    "reportings": {
+      "title": "Reportings"
+    },
+    "recapTable": {
+      "title.watchLaserNotCertified": "Matière non certifiée",
+      "title": "Opération / Catégorie de marchandise",
+      "title.hallmarking": "Poinçonnement officiel",
+      "title.jewel": "Autres ouvrages",
+      "title.jewelLaser": "LAS",
+      "title.jewelLaserCertified": "Matière certifiée",
+      "title.jewelLaserNotCertified": "Matière non certifiée",
+      "title.jewelMechanical": "MEC",
+      "title.jewelMechanicalCertified": "Matière certifiée",
+      "title.jewelMechanicalNotCertified": "Matière non certifiée",
+      "title.watch": "Boîtes de montre",
+      "title.watchLaser": "LAS",
+      "title.watchLaserCertified": "Matière certifiée",
+      "title.watchMechanical": "MEC",
+      "title.watchMechanicalCertified": "Matière certifiée",
+      "title.watchMechanicalNotCertified": "Matière non certifiée",
+      "title.analysis": "Analyses / Expertises",
+      "title.conformityEvaluation": "Evaluation de la conformité sur échantillon",
+      "title.determinationOnSamples": "Détermination de titre sur échantillon",
+      "title.determinationOnMeltingPoint": "Détermination de titre sur produit de la fonte",
+      "title.samplesFromHallmarking": "Essais de contrôle du poinçonnement officiel",
+      "title.samplesFromOtherProcesses": "Essais de contrôle d'autres domaines",
+      "au": "Au",
+      "ag": "Ag",
+      "pd": "Pd",
+      "pt": "Pt",
+      "total": "Total",
+      "revenue": "Recettes"
+    },
+    "title": "Reporting",
+    "filters": {
+      "controlOffice": "Bureau de contrôle",
+      "date": "Validé",
+      "client": "Requérant",
+      "mark": "Poinçon CH (national)",
+      "swiss": "Poinçon HMC (Convention)",
+      "international": "Mark HMC (Convention)",
+      "controlOffice.NOIC": "Le Noirmont",
+      "controlOffice.CFEC": "Chiasso",
+      "controlOffice.GDPC": "Genève",
+      "controlOffice.ZFHC": "Zurich",
+      "controlOffice.BASC": "Bâle",
+      "controlOffice.CDFC": "La Chaux-de-Fonds",
+      "controlOffice.ZEMK": "Bureau central",
+      "controlOffice.BIEC": "Biel/Bienne",
+      "controlOffice.VSGC": "Villars-sur-Glâne"
+    },
+    "exportCsv": "Exporter CSV"
+  },
+  "i18n.application.version": "Version"
+}

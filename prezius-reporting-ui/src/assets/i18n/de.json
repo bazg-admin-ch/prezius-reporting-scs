@@ -1,0 +1,72 @@
+{
+  "i18n.application.title": "Prezius",
+  "i18n.application.organization.name": "Bundesamt für Informatik und Telekommunikation",
+  "i18n.application.processHeader.submit": "Auftrag übermitteln",
+  "i18n.application.version": "Version",
+  "ERROR": {
+    "TRANSPORT_COCKPIT_PERSISTENCE_ERROR": "In der Datenbank ist ein Fehler aufgetreten",
+    "TRANSPORT_COCKPIT_VALIDATION_ERROR": "Ungültige Eingabe",
+    "ACCESS_FORBIDDEN": "Sie haben keine Berechtigung für diese Aktion"
+  },
+  "i18n.navigation": {
+    "orders": "Aufträge",
+    "protocols": "Protokolle",
+    "invoices": "Rechnungen",
+    "reporting": "Reporting",
+    "preziusInfo": "Prezius Info",
+    "application": "Gesuche",
+    "matchmaking": "Matchmaking",
+    "audit": "Audit"
+  },
+  "i18n.prezius.reporting": {
+    "title": "Reporting",
+    "exportCsv": "CSV exportieren",
+    "filters": {
+      "controlOffice": "Kontrollamt",
+      "controlOffice.BIEC": "Biel/Bienne",
+      "controlOffice.ZEMK": "Zentralamt",
+      "controlOffice.NOIC": "Le Noirmont",
+      "controlOffice.VSGC": "Villars-sur-Glâne",
+      "controlOffice.CFEC": "Chiasso",
+      "controlOffice.GDPC": "Genf",
+      "controlOffice.ZFHC": "Zürich",
+      "controlOffice.BASC": "Basel",
+      "controlOffice.CDFC": "La Chaux-de-Fonds",
+      "date": "Validiert",
+      "client": "Auftraggeber",
+      "mark": "Punzen",
+      "swiss": "Punze CH (national)",
+      "international": "Punze HMC (Konvention)"
+    },
+    "recapTable": {
+      "title": "Operation / Warenkategorie",
+      "title.hallmarking": "Amtliche Punzierung",
+      "title.jewel": "Andere Waren",
+      "title.jewelLaser": "LAS",
+      "title.jewelLaserCertified": "Zertifiziertes Material",
+      "title.jewelLaserNotCertified": "Nicht zertifiziertes Material",
+      "title.jewelMechanical": "MEC",
+      "title.jewelMechanicalCertified": "Zertifiziertes Material",
+      "title.jewelMechanicalNotCertified": "Nicht zertifiziertes Material",
+      "title.watch": "Uhrgehäuse",
+      "title.watchLaser": "LAS",
+      "title.watchLaserCertified": "Zertifiziertes Material",
+      "title.watchLaserNotCertified": "Nicht zertifiziertes Material",
+      "title.watchMechanical": "MEC",
+      "title.watchMechanicalCertified": "Zertifiziertes Material",
+      "title.watchMechanicalNotCertified": "Nicht zertifiziertes Material",
+      "title.analysis": "Analysen / Expertisen",
+      "title.conformityEvaluation": "Konformitätsberwertung auf Muster",
+      "title.determinationOnSamples": "Feingehaltbestimmung auf Muster",
+      "title.determinationOnMeltingPoint": "Feingehaltbestimmung auf Schmelzprodukt",
+      "title.samplesFromHallmarking": "Kontrollproben Amtliche Punzierung",
+      "title.samplesFromOtherProcesses": "Kontrollproben Andere Bereiche",
+      "au": "Au",
+      "ag": "Ag",
+      "pd": "Pd",
+      "pt": "Pt",
+      "total": "Total",
+      "revenue": "Einnahmen"
+    }
+  }
+}

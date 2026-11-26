@@ -1,0 +1,41 @@
+publiccodeYmlVersion: 0.4.0
+name: prezius-reporting-scs
+url: https://github.com/bazg-admin-ch/prezius-reporting-scs
+softwareVersion: "0.3.0"
+platforms:
+  - web
+categories:
+  - data-analytics
+developmentStatus: development
+softwareType: standalone/web
+description:
+  en:
+    shortDescription: Operational reports and CSV exports for precious-metal analysis and hallmarking activities.
+    longDescription: >-
+      Prezius Reporting presents operational data from precious-metal analysis and
+      hallmarking processes at the Swiss Federal Office for Customs and Border Security.
+      It builds reporting views from events published by other Prezius services and lets
+      authorised users retrieve analysis and hallmarking reports. Filtered CSV exports
+      support further evaluation, including breakdowns by control office and hallmarking
+      characteristics. The service includes a web interface and reporting endpoints.
+    features:
+      - Retrieve analysis and hallmarking reports
+      - Filter operational reporting data by control office
+      - Export filtered hallmarking reporting data as CSV
+legal:
+  license: Apache-2.0
+  mainCopyrightOwner: Bundesamt für Zoll und Grenzsicherheit BAZG
+  repoOwner: Bundesamt für Zoll und Grenzsicherheit BAZG
+maintenance:
+  type: internal
+  contacts:
+    - name: ALVA
+      email: alva@bazg.admin.ch
+localisation:
+  localisationReady: true
+  availableLanguages:
+    - de
+    - fr
+    - it
+    - en
+releaseDate: "2026-11-24"

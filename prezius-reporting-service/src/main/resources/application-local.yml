@@ -1,0 +1,81 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:6132/prezius-reporting-service-db-local
+    username: prezius
+    password: secret
+  flyway:
+    locations: classpath:db/migration/common,classpath:db/migration/postgresql
+  security:
+    oauth2:
+      client:
+        registration:
+          prezius-reporting-scs:
+            client-id: "prezius-client"
+            client-secret: "secret"
+            authorization-grant-type: "client_credentials"
+            provider: "default-provider"
+        provider:
+          default-provider:
+            issuer-uri: "${jeap.security.oauth2.resourceserver.authorization-server.issuer}"
+
+server:
+  port: 8087
+
+frontend:
+  applicationUrl: http://localhost:4206${server.servlet.context-path}
+  mockPams: true
+  pamsEnvironment: REF
+
+jeap:
+  reaction:
+    observer:
+      enabled: false
+  messaging:
+    kafka:
+      systemName: PREZIUS
+      serviceName: ${spring.application.name}
+      errorTopicName: prezius-messageprocessing-failed
+      bootstrapServers: "http://localhost:9092"
+      schemaRegistryUrl: "http://localhost:7781"
+      username: user
+      password: user-secret
+      securityProtocol: SASL_PLAINTEXT
+      set-compatibility-mode-none: true
+  security:
+    oauth2:
+      resourceserver:
+        authorization-server:
+          issuer: "http://localhost:8181"
+          jwk-set-uri: "${jeap.security.oauth2.resourceserver.authorization-server.issuer}/.well-known/jwks.json"
+        system-name: "prezius"
+  swagger:
+    status: open
+  monitor:
+    actuator:
+      user: actuator
+      password: "{noop}secret"
+    prometheus:
+      user: prometheus
+      password: "{noop}secret"
+
+adapter:
+  datahub:
+    base-url: "http://localhost:9999"
+  prezius:
+    order:
+      api-url: "http://localhost:8081/prezius-order"
+    hallmarking:
+      api-url: "http://localhost:8083/prezius-hallmarking"
+    validation:
+      api-url: "http://localhost:8082/prezius-validation"
+    billing:
+      api-url: "http://localhost:8084/prezius-billing"
+
+prezius-urls:
+  billing-service-root-url: http://localhost:4203/prezius-billing/
+  analysis-service-root-url: http://localhost:4269/prezius-analysis/
+  audit-service-root-url: http://localhost:4265/prezius-audit/
+  application-service-root-url: http://localhost:4297/prezius-application/
+  matchmaking-service-root-url: http://localhost:4221/prezius-matchmaking/
+  register-service-root-url: http://localhost:4290/prezius-register/
+  order-service-root-url: http://localhost:4200/prezius-order/

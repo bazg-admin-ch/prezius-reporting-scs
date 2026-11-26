@@ -1,0 +1,7 @@
+spring:
+  config:
+    import:
+      - "jeap-app-config-aws:"
+      - "jeap-aws-secretsmanager:prezius-reporting-scs?prefix=secretsmanager."
+      - "optional:jeap-aws-secretsmanager:prezius-reporting-scs-signing?prefix=secretsmanager."
+      - "jeap-aws-secretsmanager:shared/credential-context?prefix=secretsmanager-shared."

@@ -1,0 +1,63 @@
+server:
+  port: 8081
+
+frontend:
+  applicationUrl: http://localhost:4202${server.servlet.context-path}
+
+jeap:
+  reaction:
+    observer:
+      enabled: false
+  security:
+    oauth2:
+      resourceserver:
+        authorization-server:
+          issuer: "http://localhost:8181"
+          jwk-set-uri: "${jeap.security.oauth2.resourceserver.authorization-server.issuer}/.well-known/jwks.json"
+        system-name: "prezius"
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: "jdbc:h2:mem:prezius_db"
+    username: prezius
+    password: secret
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    show-sql: false
+    generate-ddl: false
+    properties:
+      hibernate:
+        default_schema: PUBLIC
+    database-platform: org.hibernate.dialect.H2Dialect
+  flyway:
+    locations: classpath:db/migration/common, classpath:db/migration/h2
+
+adapter:
+  datahub:
+    base-url: "http://localhost:9999"
+    api-url: "${adapter.datahub.base-url}/api/v4/businesspartner"
+    business-partner-role-emk-code: "ZKH16"
+  prezius:
+    order:
+      api-url: "http://localhost:8888/prezius-order"
+    validation:
+      api-url: "http://localhost:8888/prezius-validation"
+    hallmarking:
+      api-url: "http://localhost:8888/prezius-hallmarking"
+    billing:
+      api-url: "http://localhost:8888/prezius-billing"
+
+
+# TLS enabled only for AWS
+jeap.web.tls.enabled: false
+
+prezius-urls:
+  billing-service-root-url: http://localhost:4203/prezius-billing/
+  analysis-service-root-url: http://localhost:4269/prezius-analysis/
+  audit-service-root-url: http://localhost:4265/prezius-audit/
+  application-service-root-url: http://localhost:4297/prezius-application/
+  matchmaking-service-root-url: http://localhost:4221/prezius-matchmaking/
+  register-service-root-url: http://localhost:4290/prezius-register/
+  order-service-root-url: http://localhost:4200/prezius-order/

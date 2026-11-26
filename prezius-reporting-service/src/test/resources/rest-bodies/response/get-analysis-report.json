@@ -1,0 +1,36 @@
+{
+  "total": {
+    "au": 200,
+    "ag": 100,
+    "pd": 400,
+    "pt": 300,
+    "total": 0,
+    "totalCostsWithVat": 15000
+  },
+  "CONFORMITY_EVALUATION": {
+    "au": 1200,
+    "ag": 1100,
+    "pd": 120,
+    "pt": 130,
+    "total": 2550,
+    "totalCostsWithVat": 5000
+  },
+  "DETERMINATION_ON_SAMPLES": {
+    "au": 200,
+    "ag": 100,
+    "pd": 20,
+    "pt": 30,
+    "total": 350,
+    "totalCostsWithVat": 5000
+  },
+  "DETERMINATION_ON_MELTING_POINT": {
+    "au": 300,
+    "ag": 200,
+    "pd": 120,
+    "pt": 130,
+    "total": 750,
+    "totalCostsWithVat": 5000
+  },
+  "SAMPLES_FROM_HALLMARKING": null,
+  "SAMPLES_FROM_OTHER_PROCESSES": null
+}

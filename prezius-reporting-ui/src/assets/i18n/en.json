@@ -1,0 +1,75 @@
+{
+  "i18n.application.title": "Prezius",
+  "i18n.application.organization.name": "Federal Office of Information Technology, Systems and Telecommunication",
+  "i18n.application.processHeader.submit": "Transmit order",
+  "ERROR": {
+    "TRANSPORT_COCKPIT_PERSISTENCE_ERROR": "An error has occurred in the database",
+    "TRANSPORT_COCKPIT_VALIDATION_ERROR": "Invalid data entry",
+    "ACCESS_FORBIDDEN": "You do not have the permissions for this action"
+  },
+  "i18n.navigation": {
+    "orders": "Orders",
+    "protocols": "Protocols",
+    "invoices": "Invoices",
+    "reporting": "Reporting",
+    "preziusInfo": "Prezius Info",
+    "application": "Applications",
+    "matchmaking": "Matchmaking",
+    "audit": "Audit"
+  },
+  "i18n.prezius.reporting": {
+    "reportings": {
+      "title": "Reportings"
+    },
+    "recapTable": {
+      "title": "Operation / Categorie of goods",
+      "title.hallmarking": "Official Hallmarking",
+      "title.jewel": "Other goods",
+      "title.jewelLaser": "LAS",
+      "title.jewelLaserCertified": "Certified material",
+      "title.jewelLaserNotCertified": "Non certified material",
+      "title.jewelMechanical": "MEC",
+      "title.jewelMechanicalCertified": "Certified material",
+      "title.jewelMechanicalNotCertified": "Non certified material",
+      "title.watch": "Watchcases",
+      "title.watchLaser": "LAS",
+      "title.watchLaserCertified": "Certified material",
+      "title.watchLaserNotCertified": "Non certified material",
+      "title.watchMechanical": "MEC",
+      "title.watchMechanicalCertified": "Certififed material",
+      "title.watchMechanicalNotCertified": "Non certified material",
+      "title.analysis": "Analyses / Expertises",
+      "title.conformityEvaluation": "Conformity assessment on sample",
+      "title.determinationOnSamples": "Determination of fineness on sample",
+      "title.determinationOnMeltingPoint": "Determination of fineness on melt product",
+      "title.samplesFromHallmarking": "Control assays from hallmarking",
+      "title.samplesFromOtherProcesses": "Control assays from other processes",
+      "au": "Au",
+      "ag": "Ag",
+      "pd": "Pd",
+      "pt": "Pt",
+      "total": "Total",
+      "revenue": "Income"
+    },
+    "title": "Reporting",
+    "filters": {
+      "controlOffice": "Control office",
+      "date": "Validated",
+      "client": "Requester",
+      "mark": "Mark",
+      "swiss": "Mark CH (national)",
+      "international": "Mark HMC (Convention)",
+      "controlOffice.ZEMK": "Central Office",
+      "controlOffice.BIEC": "Biel/Bienne",
+      "controlOffice.NOIC": "Le Noirmont",
+      "controlOffice.VSGC": "Villars-sur-Glâne",
+      "controlOffice.CFEC": "Chiasso",
+      "controlOffice.GDPC": "Geneva",
+      "controlOffice.ZFHC": "Zurich",
+      "controlOffice.BASC": "Basel",
+      "controlOffice.CDFC": "La Chaux-de-Fonds"
+    },
+    "exportCsv": "Export CSV"
+  },
+  "i18n.application.version": "Version"
+}

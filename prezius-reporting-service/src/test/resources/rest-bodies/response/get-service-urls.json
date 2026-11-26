@@ -1,0 +1,9 @@
+{
+  "preziusAnalysisServiceBaseUrl": "http://localhost:4269/prezius-analysis/",
+  "preziusAuditServiceBaseUrl": "http://localhost:4265/prezius-audit/",
+  "preziusBillingServiceBaseUrl": "http://localhost:4203/prezius-billing/",
+  "preziusApplicationServiceBaseUrl": "http://localhost:4297/prezius-application/",
+  "preziusMatchmakingServiceBaseUrl": "http://localhost:4221/prezius-matchmaking/",
+  "preziusRegisterServiceBaseUrl": "http://localhost:4290/prezius-register/",
+  "preziusOrderServiceBaseUrl": "http://localhost:4200/prezius-order/"
+}

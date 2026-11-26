@@ -1,0 +1,55 @@
+spring:
+  application:
+    name: prezius-reporting-scs
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      schema: ${spring.jpa.properties.hibernate.default_schema}
+      maximum-pool-size: 10
+      pool-name: hikari-cp-${spring.application.name}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        order_by.default_null_ordering: last
+        default_schema: data
+    show-sql: false
+    open-in-view: false
+  flyway:
+    enabled: true
+    schema: ${spring.jpa.properties.hibernate.default_schema}
+
+server:
+  servlet:
+    context-path: /prezius-reporting
+
+frontend:
+  clientId: prezius-reporting-ui
+  redirectUrl: ${frontend.applicationUrl}/redirect
+  authority: ${jeap.security.oauth2.resourceserver.authorization-server.issuer}
+  tokenAwarePatterns:
+    - '${server.servlet.context-path}/api/.*'
+    - '${server.servlet.context-path}/ui-api/.*'
+
+adapter:
+  datahub:
+    client-id: datahub-client
+    api-url: "${adapter.datahub.base-url}/datahub-businesspartner/api/v4/businesspartner"
+    business-partner-role-emk-code: "ZKH16"
+  prezius:
+    client-id: prezius-reporting-scs
+    order:
+      client-id: ${adapter.prezius.client-id}
+    hallmarking:
+      client-id: ${adapter.prezius.client-id}
+    validation:
+      client-id: ${adapter.prezius.client-id}
+    billing:
+      client-id: ${adapter.prezius.client-id}
+
+
+# TLS enabled only for AWS
+jeap.web.tls.enabled: false

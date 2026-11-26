@@ -1,0 +1,122 @@
+{
+  "watchLaserCertified": {
+    "ag": 264,
+    "au": 735,
+    "pd": 99,
+    "pt": 88,
+    "totalCostsWithVat": 1186,
+    "total": 1186
+  },
+  "watchLaserNotCertified": {
+    "ag": 676,
+    "au": 2125,
+    "pd": 1306,
+    "pt": 329,
+    "totalCostsWithVat": 4436,
+    "total": 4436
+  },
+  "watchMechanicalCertified": {
+    "ag": 247,
+    "au": 1160,
+    "pd": 499,
+    "pt": 66,
+    "totalCostsWithVat": 1972,
+    "total": 1972
+  },
+  "watchMechanicalNotCertified": {
+    "ag": 2848,
+    "au": 8009,
+    "pd": 1883,
+    "pt": 836,
+    "totalCostsWithVat": 13576,
+    "total": 13576
+  },
+  "jewelLaserCertified": {
+    "ag": 111,
+    "au": 122,
+    "pd": 68,
+    "pt": 96,
+    "totalCostsWithVat": 397,
+    "total": 397
+  },
+  "jewelLaserNotCertified": {
+    "ag": 2291,
+    "au": 478,
+    "pd": 40,
+    "pt": 1780,
+    "totalCostsWithVat": 4589,
+    "total": 4589
+  },
+  "jewelMechanicalCertified": {
+    "ag": 155,
+    "au": 118,
+    "pd": 24,
+    "pt": 90,
+    "totalCostsWithVat": 387,
+    "total": 387
+  },
+  "jewelMechanicalNotCertified": {
+    "ag": 7261,
+    "au": 3077,
+    "pd": 6,
+    "pt": 3628,
+    "totalCostsWithVat": 13972,
+    "total": 13972
+  },
+  "watchLaserTotal": {
+    "ag": 940,
+    "au": 2860,
+    "pd": 1405,
+    "pt": 417,
+    "totalCostsWithVat": 5622,
+    "total": 5622
+  },
+  "watchMechanicalTotal": {
+    "ag": 3095,
+    "au": 9169,
+    "pd": 2382,
+    "pt": 902,
+    "totalCostsWithVat": 15548,
+    "total": 15548
+  },
+  "jewelLaserTotal": {
+    "ag": 2402,
+    "au": 600,
+    "pd": 108,
+    "pt": 1876,
+    "totalCostsWithVat": 4986,
+    "total": 4986
+  },
+  "jewelMechanicalTotal": {
+    "ag": 7416,
+    "au": 3195,
+    "pd": 30,
+    "pt": 3718,
+    "totalCostsWithVat": 14359,
+    "total": 14359
+  },
+  "watchTotal": {
+    "ag": 4035,
+    "au": 12029,
+    "pd": 3787,
+    "pt": 1319,
+    "totalCostsWithVat": 21170,
+    "total": 21170
+  },
+  "jewelTotal": {
+    "ag": 9818,
+    "au": 3795,
+    "pd": 138,
+    "pt": 5594,
+    "totalCostsWithVat": 19345,
+    "total": 19345
+  },
+  "total": {
+    "ag": 13853,
+    "au": 15824,
+    "pd": 3925,
+    "pt": 6913,
+    "totalCostsWithVat": 40515,
+    "total": 40515
+  }
+}

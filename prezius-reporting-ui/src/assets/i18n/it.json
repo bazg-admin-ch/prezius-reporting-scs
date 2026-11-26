@@ -1,0 +1,75 @@
+{
+  "i18n.application.title": "Prezius",
+  "i18n.application.organization.name": "Ufficio federale dell'informatica e della telecomunicazione",
+  "i18n.application.processHeader.submit": "Invia domanda",
+  "ERROR": {
+    "TRANSPORT_COCKPIT_PERSISTENCE_ERROR": "Si è prodotto un errore nel database",
+    "TRANSPORT_COCKPIT_VALIDATION_ERROR": "Inserzione non valida",
+    "ACCESS_FORBIDDEN": "Non si dispone dei permessi per questa azione"
+  },
+  "i18n.navigation": {
+    "orders": "Domande",
+    "protocols": "Protocolli",
+    "invoices": "Fatture",
+    "reporting": "Reporting",
+    "preziusInfo": "Prezius Info",
+    "application": "Domande",
+    "matchmaking": "Matchmaking",
+    "audit": "Audit"
+  },
+  "i18n.prezius.reporting": {
+    "reportings": {
+      "title": "Reportings"
+    },
+    "title": "Reporting",
+    "filters": {
+      "controlOffice": "Ufficio per il controllo",
+      "date": "Convalidato",
+      "client": "Richiedente",
+      "mark": "Marchi",
+      "swiss": "Marchi CH (nazionale)",
+      "international": "Marchi HMC (Convenzione)",
+      "controlOffice.BIEC": "Biel/Bienne",
+      "controlOffice.VSGC": "Villars-sur-Glâne",
+      "controlOffice.CFEC": "Chiasso",
+      "controlOffice.GDPC": "Ginevra",
+      "controlOffice.ZFHC": "Zurigo",
+      "controlOffice.BASC": "Basilea",
+      "controlOffice.CDFC": "La Chaux-de-Fonds",
+      "controlOffice.ZEMK": "Ufficio centrale",
+      "controlOffice.NOIC": "Le Noirmont"
+    },
+    "recapTable": {
+      "title": "Operazione / categoria di prodotti",
+      "title.hallmarking": "Punzonatura ufficiale",
+      "title.jewel": "Altri lavori",
+      "title.jewelLaser": "LAS",
+      "title.jewelLaserCertified": "Materiale certificato",
+      "title.jewelLaserNotCertified": "Materiale non certificato",
+      "title.jewelMechanical": "MEC",
+      "title.jewelMechanicalCertified": "Materiale certificato",
+      "title.jewelMechanicalNotCertified": "Materiale non certificato",
+      "title.watch": "Casse d'orologio",
+      "title.watchLaser": "LAS",
+      "title.watchLaserCertified": "Materiale certificato",
+      "title.watchLaserNotCertified": "Materiale non certificato",
+      "title.watchMechanical": "MEC",
+      "title.watchMechanicalCertified": "Materiale certificato",
+      "title.watchMechanicalNotCertified": "Materiale non certificato",
+      "title.analysis": "Analisi / Perizie",
+      "title.conformityEvaluation": "Valutazione della conformità sul campione",
+      "title.determinationOnSamples": "Determinazione del titolo sul campione",
+      "title.determinationOnMeltingPoint": "Determinazione del titolo sul prodotto delle fusione",
+      "title.samplesFromHallmarking": "Saggi di controllo di marchiatura ufficiale",
+      "title.samplesFromOtherProcesses": "Saggi di controllo altri settori",
+      "au": "Au",
+      "ag": "Ag",
+      "pd": "Pd",
+      "pt": "Pt",
+      "total": "Totale",
+      "revenue": "Entrate"
+    },
+    "exportCsv": "Esportare CSV"
+  },
+  "i18n.application.version": "Versione"
+}
